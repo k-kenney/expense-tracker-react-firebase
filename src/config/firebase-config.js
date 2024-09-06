@@ -6,7 +6,7 @@ import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCwM25jIgB2H7mH7MCeTTEFVJnNymvEe_Q",
+apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "expense-tracker-e91b8.firebaseapp.com",
   projectId: "expense-tracker-e91b8",
   storageBucket: "expense-tracker-e91b8.appspot.com",
